@@ -775,7 +775,7 @@ Keep in mind that if you are looking for a keyword in a hashmap that doesn't hav
 ```clojure
 (:mood (turtle-state :trinity))
 ```
-returns `nil`  (which stands for _nothing_, different than _zero_) since `:mood` isn't a part of a turtle's state. This by itself isn't a problem, but if you get `nil` by mistake, and try to use it later on instead of what you expected to get (a number, a name, etc.), you may get a nasty `NullPointerException` error. Be careful with spelling of keywords: if you misspell it, you may get 'nil` as the result, and it would be difficult to find and fix the error.
+returns `nil`  (which stands for _nothing_) since `:mood` isn't a part of a turtle's state. This by itself isn't a problem, but if you get `nil` by mistake, and try to use it later on instead of what you expected to get (a number, a name, etc.), you may get a nasty `NullPointerException` error. Be careful with spelling of keywords: if you misspell it, you may get 'nil` as the result, and it would be difficult to find and fix the error.
 
 We will be using keywords in order to make turtles behavior depend on what their state is.
 
@@ -946,7 +946,19 @@ Another idea: can you write a recursive function to draw a tree? It may look som
 
 And yes, that's a turtle on top of the tree! Our turtles are magical.
 
-Talk to mentors about your ideas, we will be happy to suggest ways of implementing them. Hope you have fun with our little turtles and Clojure!
+Talk to mentors about your ideas, we will be happy to suggest ways of implementing them. Hope you have fun with our little turtles and Clojure!  
+
+#### 13: Examples  
+Pyramids of Giza using recursion  
+![Pyramids picture](img/Pyramids.png)  
+
+Random Forrest:
+Use a random function to create a randomly arranged forrest. 
+_First Run_   
+![ForrestOne Picture](img/ForrestOne.png)  
+
+_Second Run_  
+![ForrestTwo Picture](img/ForrestTwo.png)  
 
 License
 -------
