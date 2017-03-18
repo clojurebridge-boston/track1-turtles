@@ -1,5 +1,5 @@
 ;; Needed to include the turtle graphics
-(ns clojurebridge-turtle.walk
+(ns clojurebridge-turtle.yourcode
   (:use clojure.repl)
   (:use clojurebridge-turtle.core))
 
