@@ -5,6 +5,22 @@ This repository has two apps.
 1. A very small sample app to test your install for ClojureBridge
 2. A set of Clojure lessons using turtles :turtle:.   
 
+#### Why turtles?
+
+There is a historical context for why the name "turtle" is used.
+
+With a desire to develop children's interest in using computers and learning to program,
+[Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) created robots that resembled turtles for them to play with.
+
+The goal was to enable the kids to get the turtle to draw common shapes without a lot of formal training. 
+Kids would start with a few simple actions that they understood, like [turning and taking steps](https://youtu.be/bOf4EMN6-XA?t=4m14s).
+They would then learn how to relate those actions to programming commands so that the turtle would carry them out.
+
+By laying out a large piece of paper and equipping the turtle with markers,
+the kids could [test their ideas](https://youtu.be/bOf4EMN6-XA?t=6m50s) and delight in creating drawings that were unique and interactive.
+
+So in this spirit we've moved the turtle into your computer and you get to decide what to draw, and how.
+
 #### How to move turtles
 
 A turtle can move forward/backward and tilt its head right/left.
